@@ -24,25 +24,33 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ECh-WK-EOW" userLabel="TextContainer">
                                 <rect key="frame" x="0.0" y="237" width="600" height="363"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cupertino" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HhS-5V-i7W">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Cupertino" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="HhS-5V-i7W">
                                         <rect key="frame" x="-4" y="10" width="608" height="180"/>
                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="150"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" weight="thin" pointSize="90"/>
+                                        </variation>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="28C" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H1M-5x-RPl">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="28C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="H1M-5x-RPl">
                                         <rect key="frame" x="77" y="54" width="447" height="299"/>
                                         <fontDescription key="fontDescription" type="system" weight="thin" pointSize="250"/>
                                         <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
+                                        <variation key="widthClass=compact">
+                                            <fontDescription key="fontDescription" type="system" weight="thin" pointSize="150"/>
+                                        </variation>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.22745098039215686" green="0.42745098039215684" blue="0.65490196078431373" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
+                                    <constraint firstItem="HhS-5V-i7W" firstAttribute="width" secondItem="ECh-WK-EOW" secondAttribute="width" id="34i-3E-u3V"/>
                                     <constraint firstItem="HhS-5V-i7W" firstAttribute="top" secondItem="ECh-WK-EOW" secondAttribute="top" constant="10" id="IHz-vl-qmv"/>
                                     <constraint firstAttribute="bottom" secondItem="H1M-5x-RPl" secondAttribute="bottom" constant="10" id="TU4-vF-vhC"/>
                                     <constraint firstItem="H1M-5x-RPl" firstAttribute="centerX" secondItem="ECh-WK-EOW" secondAttribute="centerX" id="kcy-pK-qzc"/>
                                     <constraint firstItem="HhS-5V-i7W" firstAttribute="centerX" secondItem="ECh-WK-EOW" secondAttribute="centerX" id="vVp-2H-L8o"/>
+                                    <constraint firstItem="H1M-5x-RPl" firstAttribute="width" secondItem="ECh-WK-EOW" secondAttribute="width" id="vwV-wm-ARm"/>
                                 </constraints>
                             </view>
                         </subviews>
